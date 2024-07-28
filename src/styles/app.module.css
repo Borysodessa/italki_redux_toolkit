@@ -1,15 +1,21 @@
 
 
 .appMainWrap{
-   padding-top: 15px;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+   margin-left:auto;
+   margin-right:auto;
+    padding-top: 15px;
+    max-width: 1400px;
+   background-color: rgb(241, 242, 245)
 }
 
 .appCardWrap{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
  /* .overlay{

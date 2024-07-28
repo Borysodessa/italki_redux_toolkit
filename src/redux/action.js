@@ -22,7 +22,6 @@ export const choiceOfTeachers = (e) => {
 export const clearFilter = () => {
   return {
     type: "CLEAR",
-    payload: [],
   };
 };
 

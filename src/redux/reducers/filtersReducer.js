@@ -29,8 +29,8 @@ export function filtersReducer(state = filtersInitialState, action) {
   if (action.type === "CLEAR") {
     return {
       ...state,
-      selectedCountry: action.payload,
-      selectedLanguage: action.payload,
+      selectedCountry: [],
+      selectedLanguage: [],
     };
   }
   if (action.type === "MINVALUE") {
