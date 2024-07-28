@@ -8,6 +8,6 @@ export function App() {
   return (
     <Provider store={store}>
       <TeacherProfileLayout />
-    </Provider>
+    </Provider
   );
 }
